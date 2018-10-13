@@ -1,0 +1,15 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+    background(25);
+    noFill();
+    
+
+  for (var i=20; i<500; i+=50) {
+  stroke(255);
+    ellipse(width/2, height/2, i);
+}
+    
+}
